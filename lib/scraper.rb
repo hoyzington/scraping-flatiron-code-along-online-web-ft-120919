@@ -36,3 +36,7 @@ end
 Scraper.new.get_page
 
 #course-grid > section > article:nth-child(1) > h2
+
+course_title = doc.css(".post").first.css("h2").text
+
+
