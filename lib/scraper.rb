@@ -39,4 +39,5 @@ Scraper.new.get_page
 
 course_title = doc.css(".post").first.css("h2").text
 course_date = doc.css(".post").first.css(".date").text
+course_desc = doc.css(".post").first.css("p").text
 
