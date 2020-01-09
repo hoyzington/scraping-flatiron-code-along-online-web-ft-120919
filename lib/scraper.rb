@@ -30,9 +30,9 @@ class Scraper
     binding.pry
   end
   
-  
-  
 end
 
 
 Scraper.new.get_page
+
+#course-grid > section > article:nth-child(1) > h2
